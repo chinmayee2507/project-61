@@ -1,0 +1,145 @@
+html {
+    text-align: center;
+    font-family: cursive;
+    font-weight: bold;
+
+}
+
+#main {
+
+    height: 400px;
+    width: 400px;
+    border-style: solid;
+    border-color: darkslateblue;
+    border-width: thick;
+}
+
+body {
+    background-image: linear-gradient(#ffffff,#fcb1c0, #99aaff,#3c56d6);
+    color: darkslateblue;
+
+}
+
+#para {
+    padding: 20px;  
+    text-align: center;
+    font-size: 20px;
+    font-family: 'lobster', cursive;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-family: 'ranchers', cursive;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-decoration-color: darkslateblue;
+}
+
+h2 {
+    font-family: 'ranchers', cursive;
+    letter-spacing: 3px;
+    text-decoration: underline;
+    text-decoration-color: darkslateblue;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'chango', cursive;
+    position: fixed;
+    cursor: pointer;
+    width: 100%;
+    z-index: 10;
+   
+}
+
+.links {
+    color: darkslateblue;
+    font-family: 'chango', cursive;
+    font-size: 20px;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px;
+    float: left;
+
+}
+
+.links:hover {
+    background-color: deeppink;
+    font-size: 25px;
+    text-decoration: underline;
+    color: white;
+    text-decoration-color: white;
+    
+}
+
+img{
+    border-style: solid;
+    border-color: darkslateblue;
+    border-width: thick;
+    width=50%;
+    height: 50%;
+}
+
+#img{
+    margin: 20px;
+}
+
+#ins{
+    
+    border-style: solid;
+    border-color: darkslateblue;
+    border-width: 5px;
+    width:200px;
+    height: 200px;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.line {
+    height: 6px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h3 , #mip {
+    font-family: 'ranchers', cursive;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    text-decoration-color: antiquewhite;
+    color: antiquewhite;
+}
+
+#ins:hover{
+    transform: scale(1.25,1.25);
+    border-color: aliceblue;
+    border-width: 10px;
+    
+    
+}
+
+a{
+    text-shadow: 2px 2px gainsboro;
+    
+}
+
+.fa fa-instagram{
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+
+.fa fa-envelope{
+    color: white;
+    height: 30px;
+    width: 30px;
+}
